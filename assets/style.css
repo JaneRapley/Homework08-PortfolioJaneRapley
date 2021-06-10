@@ -1,0 +1,59 @@
+body, html {
+    height: 100%
+}
+
+body {
+    fonnt-weight: 200;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.intro-left {
+    background: url(../images/rr1.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .intro-left {
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.selfie {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.quote{
+    float: right;
+}
+
+section {
+    margin: 5rem;
+    font-size:  1.2 rem;
+}
+
+.footer{
+    background-color: white;
+    font-size: 1rem;
+}
+
+.panel-right{
+    background: url(../images/ll1.jpg);
+    width: 66.6666%;
+    height: 100%;
+}
