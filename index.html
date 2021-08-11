@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css" />
     <script src="https://kit.fontawesome.com/fefe8df9d9.js" crossorigin="anonymous"></script>
     <title>Jane Rapley Portfolio</title>
@@ -27,8 +28,8 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">Left</div>
-            <div class="col-md-8 panel-right px-0">
+            <div class="col-md-4"></div>
+            <div class="col-md-8 panel-right px-0" id="mainPanel">
 
                 <section class="quote">
                     <figure class="text-end">
@@ -42,10 +43,10 @@
                 </section>
 
                 <section class="intro">
-                    <h1 classs="dispaly-4"> Jane Rapley's Portfolio</h1>
-                    <h2 class="display-6 mb-5">Built with Bootstrap 5</h2>
+                    <h1 classs="display-4"> My Portfolio</h1>
+                    <h2 class="display-6 mb-5">Built with Bootstrap</h2>
 
-                    <p class="dispaly-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint cumque culpa, rem aspernatur illum reiciendis praesentium hic quas id pariatur deserunt dolorum provident odit sed aliquid totam enim? Recusandae.. </p>
+                    <p class="display-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint cumque culpa, rem aspernatur illum reiciendis praesentium hic quas id pariatur deserunt dolorum provident odit sed aliquid totam enim? Recusandae.. </p>
                 </section>
 
                 <section class="projects">
@@ -81,8 +82,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="mb-3">
+                    <div  >
+                        <div class="mb-3" id="messageSection">
                             <label for="message" class="form-label">Message:</label>
                             <textarea class="form-control" id="message" rows="3"></textarea>
                         </div>
